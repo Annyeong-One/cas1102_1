@@ -26,4 +26,4 @@ Temperature.change_unit("Kelvin")
 t1.display()
 # unit is a class attribute, we changed it with change_unit() a class method,
 # and therefore upon calling display() afterwards, the printed (displayed) unit
-# is "Kelvin"
+# is the shared value "Kelvin"
