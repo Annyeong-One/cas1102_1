@@ -24,6 +24,6 @@ t1.display()
 print(Temperature.to_fahrenheit(100))
 Temperature.change_unit("Kelvin")
 t1.display()
-# unit is a class attribute, we changed it at line 26,
-# and therefore upon calling display() afterwards,
-# the printed (displayed) unit is "Kelvin"
+# unit is a class attribute, we changed it with change_unit() a class method,
+# and therefore upon calling display() afterwards, the printed (displayed) unit
+# is "Kelvin"
